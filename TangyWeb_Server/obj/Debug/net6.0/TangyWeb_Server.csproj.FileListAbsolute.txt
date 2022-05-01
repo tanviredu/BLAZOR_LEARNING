@@ -25,3 +25,6 @@ F:\BLAZOR_LEARNING\TangyWeb_Server\obj\Debug\net6.0\TangyWeb_Server.dll
 F:\BLAZOR_LEARNING\TangyWeb_Server\obj\Debug\net6.0\ref\TangyWeb_Server.dll
 F:\BLAZOR_LEARNING\TangyWeb_Server\obj\Debug\net6.0\TangyWeb_Server.pdb
 F:\BLAZOR_LEARNING\TangyWeb_Server\obj\Debug\net6.0\TangyWeb_Server.genruntimeconfig.cache
+F:\BLAZOR_LEARNING\TangyWeb_Server\bin\Debug\net6.0\Tangy_Models.dll
+F:\BLAZOR_LEARNING\TangyWeb_Server\bin\Debug\net6.0\Tangy_Models.pdb
+F:\BLAZOR_LEARNING\TangyWeb_Server\obj\Debug\net6.0\TangyWeb_Server.csproj.CopyComplete

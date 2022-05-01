@@ -1,0 +1,12 @@
+F:\BLAZOR_LEARNING\Tangy_Models\bin\Debug\net6.0\Tangy_Models.deps.json
+F:\BLAZOR_LEARNING\Tangy_Models\bin\Debug\net6.0\Tangy_Models.dll
+F:\BLAZOR_LEARNING\Tangy_Models\bin\Debug\net6.0\ref\Tangy_Models.dll
+F:\BLAZOR_LEARNING\Tangy_Models\bin\Debug\net6.0\Tangy_Models.pdb
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.csproj.AssemblyReference.cache
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.AssemblyInfoInputs.cache
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.AssemblyInfo.cs
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.csproj.CoreCompileInputs.cache
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.dll
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\ref\Tangy_Models.dll
+F:\BLAZOR_LEARNING\Tangy_Models\obj\Debug\net6.0\Tangy_Models.pdb

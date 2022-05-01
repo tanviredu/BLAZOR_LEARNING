@@ -111,39 +111,6 @@
         }
       },
       {
-        "HashCode": -1512004251,
-        "Kind": "Components.Component",
-        "Name": "TangyWeb_Server.Pages.LearnBlazor.BindProp",
-        "AssemblyName": "TangyWeb_Server",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BindProp"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TangyWeb_Server.Pages.LearnBlazor.BindProp"
-        }
-      },
-      {
-        "HashCode": 2039703130,
-        "Kind": "Components.Component",
-        "Name": "TangyWeb_Server.Pages.LearnBlazor.BindProp",
-        "AssemblyName": "TangyWeb_Server",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TangyWeb_Server.Pages.LearnBlazor.BindProp"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TangyWeb_Server.Pages.LearnBlazor.BindProp",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2038941183,
         "Kind": "Components.Component",
         "Name": "TangyWeb_Server.App",
@@ -173,6 +140,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TangyWeb_Server.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 640900913,
+        "Kind": "Components.Component",
+        "Name": "TangyWeb_Server.Shared.SurveyPrompt",
+        "AssemblyName": "TangyWeb_Server",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TangyWeb_Server.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1638521159,
+        "Kind": "Components.Component",
+        "Name": "TangyWeb_Server.Shared.SurveyPrompt",
+        "AssemblyName": "TangyWeb_Server",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TangyWeb_Server.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TangyWeb_Server.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -269,59 +289,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "TangyWeb_Server.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 640900913,
-        "Kind": "Components.Component",
-        "Name": "TangyWeb_Server.Shared.SurveyPrompt",
-        "AssemblyName": "TangyWeb_Server",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TangyWeb_Server.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -1638521159,
-        "Kind": "Components.Component",
-        "Name": "TangyWeb_Server.Shared.SurveyPrompt",
-        "AssemblyName": "TangyWeb_Server",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TangyWeb_Server.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TangyWeb_Server.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

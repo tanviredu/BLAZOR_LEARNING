@@ -1,7 +1,66 @@
 @page "/learnBlazor/bindProp"
-<h3>BindProp</h3>
+
+<div class="row col-12">
+
+
+<div class="row col-6 border p-3">
+    <h3>Product</h3>
+    <hr>
+    Name : @product.Name <br>
+    Active : @product.IsActive <br>
+    Price : @product.Price <br>
+    This Product is : @(product.IsActive ? "Active":"Inactive") <br>
+    @* Price : <input type="number" @bind="@product.Price" @bind:event="oninput"> <br>  *@
+    Property Selected : @selectedProp <br>
+    @if(!String.IsNullOrWhiteSpace(selectedProp))
+    {
+        <p>Property Value : @product.ProductProperties.FirstOrDefault(s=>s.Key ==selectedProp).Value</p>
+    }
+</div>
+<br>
+
+
+
+
+
+
+<div class="row col-6 border p-3">
+    <h3 class="text-primary">Product PlayGround</h3>
+    <hr>
+    Active <input type="checkbox" @bind-value="@product.IsActive" checked="@(product.IsActive?"checked":null)" > <br>
+    
+    Price : <input type="number" @bind-value="@product.Price" @bind-value:event="oninput"> <br>
+    
+
+
+
+
+Product Properties : 
+<select @bind="selectedProp" >
+    @foreach(var prop in product.ProductProperties)
+    {
+        <option value="@prop.Key" >@prop.Key</option>
+    }
+</select>
+</div>
+</div>
+
+
 
 
 @code{
+    private string selectedProp = "";
+
+    public Demo_Product product = new Demo_Product {
+        Name = "Product 1",
+        IsActive = true, //by default true
+        Price = 100,
+        ProductProperties = new List<Demo_ProductProp>()
+            {
+                new Demo_ProductProp { Id = 1,Key="Color",Value="Black" },
+                new Demo_ProductProp { Id = 2,Key="Flavor",Value="Rose Jasmin" },
+                new Demo_ProductProp { Id = 2,Key="Size",Value="20oz" },
+            } 
+    };
     
 }
